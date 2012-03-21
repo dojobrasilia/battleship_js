@@ -1,0 +1,51 @@
+21/mar/2012
+  
+  Presentes:
+  - Bruno Pedroso
+  - Bruno Reis (só começo)
+  - Bruno Rolim (até 19:30)
+  - Hélder Ribas
+  - Haikal Rios
+  - Rodrigo Ramalho
+  - Maurício Faustino
+  - Delfino Gomes
+  
+  Battleship JS sessão 1
+  
+  Conversamos um bocado no começo sobre a estratégia de implementação. Resolvemos fazer só a parte cliente, colocando as duas tabelas no mesmo HTML (o campo com a frota de um jogador e o alvo do outro), pra ver a coisa funcionando antes de mexer com o servidor.
+  
+  Codamos apenas a montagem das tabelas. Começamos com o html fixo, depois refatoramos ele pra dentro do Battleship.js com um único teste sobre a estrutura dos tr's e td's.
+  
+  Discutimos brevemente o próximo passo em grupo entre os 5min de dois pares, qndo haviam comentários para serem feitos. 
+  
+  Uma das discussões foi mais longa, a respeito de se a gente deveria ou não se preocupar com alguns detalhes de interface antes de fazer a lógica do jogo. Discutimos se alguma coisa é mais prioritária que a outra, se a UI ou a lógica do jogo. 
+  
+  Retrospectiva:
+  
+  =)
+    - Bastante gente
+    - Quantidade boa de pessoas
+    - Discutimos cada passo, bastante discussão, decisões coletivas
+    - Respeitamos o silêncio
+    - Problema legal +1 +1 (problema complexo - motivante)
+    - Muita discussão, mesmo com o código pouco
+    - Música
+    - Salinha, ambiente legal
+    - Começar do zero
+    
+  =(
+    - Pouca cadeira
+    - Gente saindo mais cedo (perdendo a retrospectiva)
+    - Sem pizza
+    - Sem cerveja
+    - Internet com problema
+    - Não comitamos
+    - Algumas conversas prolongaram demais
+    - Tempo curto para codar (5min)
+    - Relação piloto-copiloto não foi fina
+    - Demora pra preparar o ambiente
+    - Conversa prolongada sobre um detalhe bobo
+    - Esperava mais (algum) backbone (não precisamos usar ainda)
+    
+    
+=============

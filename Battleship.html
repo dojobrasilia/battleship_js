@@ -1,0 +1,39 @@
+<html>
+  
+  <head>
+    <script type="text/javascript" src="lib/jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="src/Battleship.js"></script>
+    <style type="text/css" media="screen">
+      table, tr{
+        border: 0px solid black;
+        margin: auto;
+        border-collapse:collapse;
+      }
+      td {
+        border: 1px solid black;
+        height: 15px;
+        width: 15px;
+        padding:0px;
+      }
+      
+    </style>
+  </head>
+  
+  <body>
+    
+    <table id="target_squad">
+    </table>  
+    
+    <br/>
+    
+    <table id="my_squad">
+    </table>
+
+  </body>
+
+  <script type="text/javascript" charset="utf-8">
+    var battle_ship = new BattleShip(4,4)
+  </script>
+
+</html>
+
