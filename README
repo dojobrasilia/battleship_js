@@ -49,3 +49,53 @@
     
     
 =============
+
+28/mar/2012
+  
+  Presentes:
+  - Bruno Pedroso
+  - Haikal Rios
+  - Rodrigo Ramalho
+  - Maurício Faustino
+  - Delfino Gomes
+  - João Stein
+
+  Começamos na hora dessa vez \o/
+  Iniciamos refatorando o pouco código que tínhamos, na intenção de tirar a dependência do código com uma estrutura de html pré-existente. Ficamos uns 4 ou 5 tomates enrolados com isso, pq parece que o pessoal não entendeu muito onde o Pedroso queria chegar.
+  Depois disso, limpamos bem o código e conseguimos implementar o desenho da tabela todo. Implementamos também a adição de dois tipos de navios no tabuleiro.
+  No final, nos enrolamos com dois sistemas de referência: X e Y ou linha e coluna? Ficamos uns 3 tomates tentando nos encontrar com isso, e o dojo acabou.
+  
+  Retrospectiva:
+  
+  =)
+    - Discussão entre os pomodoros (x2)
+    - Quantidade de pessoas boa
+    - Começamos na hora
+    - Conseguimos melhorar os pontos negativos da sessão passada
+    - Aumentamos o número de testes
+    - Evitamos a conversa paralela
+    - Aprendi bastante JS
+    - Assunto interessante
+    - Pares mais fluidos
+    - Biscoito caseiro
+    - Comitamos (x2)
+    
+  
+  =(
+    - Nem todo mundo codou
+    - Galera tímida (x2)
+    - Ainda não usamos backbone
+    - Quebrou o tomate (x2)
+    - Cabo do projetor com mal contato (x4)
+    - Sem pizza de novo
+    - Sem música
+    - Comitamos pouco
+    - Poucos testes visuais
+    - Andamos pouco
+    - Refactoring confuso no começo (x2)
+    - confusão row-col e x-y
+  
+  
+  
+  
+
