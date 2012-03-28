@@ -1,13 +1,20 @@
 BattleShip = function(rows, cols){
   
+  this.my_field = $("<table id='my_field'></table>")
+  this.target_field = $("<table id='target_field'></table>");
+  
   for (var i = 0; i < rows; i++){
-    $("#target_squad").append("<tr></tr>");
-    $("#my_squad").append("<tr></tr>");
+    this.my_field.append("<tr></tr>");
+    this.target_field.append("<tr></tr>");
     
     for (var j = 0; j < cols; j++){
-      $("#target_squad tr:last").append("<td></td>");
-      $("#my_squad tr:last").append("<td></td>");
+      this.my_field.find("tr:last").append("<td></td>");
+      this.target_field.find("tr:last").append("<td></td>");
     }
   }
+  
+}
+
+BattleShip.prototype = {
   
 }
