@@ -14,6 +14,7 @@
         height: 15px;
         width: 15px;
         padding:0px;
+        text-align:center;
       }
       
     </style>
@@ -26,9 +27,12 @@
   <script type="text/javascript" charset="utf-8">
   
     var battle_ship = new BattleShip(4,4);
+    
     $('body').append(battle_ship.my_field)
       .append("<br/>")
       .append(battle_ship.target_field)
+    
+    battle_ship.put_boat_on_position(1,0);
       
   </script>
 
