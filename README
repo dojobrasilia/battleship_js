@@ -95,7 +95,31 @@
     - Refactoring confuso no começo (x2)
     - confusão row-col e x-y
   
-  
-  
+
+=============
+
+04/abr/2012
+
+Presentes:
+* Bruno Pedroso
+* Delfino Gomes
+* João Stein
+
+Refatoramos os nomes dos métodos para refletir os nomes dos barcos do jogo. Além disso colocamos as imagens de dois barcos com orientações vertical e horizontal. Tivemos uma certa dificuldade para padronizar o tamanho das imagens e também fazer o chrome renderizar as células da tabela quadradas.
+
+=)
+* Mexemos com o photoshop
+* Vieram poucas pessoas 
+* A tela começou a ficar bonitinha
+* O projetor não deu problema
+* Fluiu bem
+* Fizemos a parte visual que normalmente não fariamos se estivessem mais pessoas
+
+=(
+* Vieram poucas pessoas 
+* Problema na renderização da tabela, tivemos que fazer uma gambiarra para as células da tabela ficarem quadradas (colocamos 17x18 para ficar com 18x18)
+* Furamos alguns tomates
+* As imagens não estavam com tamanhos proporcionais como supusemos
+
   
 
