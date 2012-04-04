@@ -37,6 +37,19 @@ BattleShip.prototype = {
     this.cell(row, col).append(img1);
   },
   
+  put_cruiser_at: function(row, col, orientation){
+    if(orientation == 'v') {
+      
+    } else {
+      var img1 = $("<img src='images/h_cruiser_1.jpg' />");
+      var img2 = $("<img src='images/h_cruiser_2.jpg' />");
+      var img3 = $("<img src='images/h_cruiser_3.jpg' />");
+      this.cell(row, col).append(img1);
+      this.cell(row, col+1).append(img2);
+      this.cell(row, col+2).append(img3);
+    }
+    
+  },
   
   row: function(r) {
     return this.my_field.find('tr:eq(' + r + ')');
