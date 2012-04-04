@@ -23,8 +23,10 @@ BattleShip = function(rows, cols){
 BattleShip.prototype = {
   
   put_destroyer_at: function(row,col){
-    this.cell(row, col).html('X');
-    this.cell(row, col+1).html('X');
+    var img1 = $("<img src='images/h_destroyer_1.jpg' />");
+    var img2 = $("<img src='images/h_destroyer_2.jpg' />");
+    this.cell(row, col).append(img1);
+    this.cell(row, col+1).append(img2);
   },
   
   row: function(r) {

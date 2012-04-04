@@ -17,8 +17,8 @@ describe("Battleship", function() {
     
   it("should create big boat and put it in the position 0x0", function(){
     this.battle_ship.put_destroyer_at(0,0);
-    expect(this.battle_ship.my_field.find('tr:eq(0) td:eq(0)').text()).toNotBe("");
-    expect(this.battle_ship.my_field.find('tr:eq(0) td:eq(1)').text()).toNotBe("");
+    expect(this.battle_ship.my_field.find('tr:eq(0) td:eq(0) img').attr('src')).toBe('images/h_destroyer_1.jpg');
+    expect(this.battle_ship.my_field.find('tr:eq(0) td:eq(1) img').attr('src')).toBe('images/h_destroyer_2.jpg');
   });
 
 });
