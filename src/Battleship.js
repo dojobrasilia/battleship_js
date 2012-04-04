@@ -21,13 +21,10 @@ BattleShip = function(rows, cols){
 
 
 BattleShip.prototype = {
-  put_boat_on_position: function(row, col){
-    this.cell(row, col).html('X');
-  },
   
-  put_big_fishing_boat_on_position: function(row,col){
-    this.put_boat_on_position(row, col);
-    this.put_boat_on_position(row, col+1);
+  put_destroyer_at: function(row,col){
+    this.cell(row, col).html('X');
+    this.cell(row, col+1).html('X');
   },
   
   row: function(r) {
