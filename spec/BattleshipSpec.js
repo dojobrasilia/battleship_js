@@ -40,6 +40,25 @@ describe("Battleship", function() {
     expect(this.battle_ship.my_field.find('tr:eq(1) td:eq(0) img').attr('src')).toBe('images/v_cruiser_2.jpg');
     expect(this.battle_ship.my_field.find('tr:eq(2) td:eq(0) img').attr('src')).toBe('images/v_cruiser_3.jpg');
   });
-
+  
+  
+  it("should mark water shoot in both fields when shooting in the position 0x0", function(){
+    this.battle_ship.shoot_at(0, 0);
+    expect(this.battle_ship.my_field.find('tr:eq(0) td:eq(0)').html()).toBe('W');
+    expect(this.battle_ship.target_field.find('tr:eq(0) td:eq(0)').html()).toBe('W');
+  });
+  
+  it("should mark a hit at the ship in both fields", function(){
+    this.battle_ship.put_destroyer_at(0, 0, 'v');
+    this.battle_ship.shoot_at(0, 0);
+    expect(this.battle_ship.my_field.find('tr:eq(0) td:eq(0)').html()).toBe('X');
+    expect(this.battle_ship.target_field.find('tr:eq(0) td:eq(0)').html()).toBe('X');
+  });
+  it("should shoot when we click on target field", function(){
+    this.battle_ship.put_destroyer_at(0, 0, 'v');
+    this.battle_ship.target_field.find('tr:eq(0) td:eq(0)').click()
+    expect(this.battle_ship.my_field.find('tr:eq(0) td:eq(0)').html()).toBe('X');
+    expect(this.battle_ship.target_field.find('tr:eq(0) td:eq(0)').html()).toBe('X');
+  });
 
 });
