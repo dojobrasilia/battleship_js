@@ -26,14 +26,14 @@
 
   <script type="text/javascript" charset="utf-8">
   
-    var battle_ship = new BattleShip(4,4);
+    var battle_ship = new BattleShip(8,8);
+    battle_ship.put_destroyer_at(1,0,'v');
+    battle_ship.put_cruiser_at(2,1,'v');
     
     $('body').append(battle_ship.my_field)
       .append("<br/>")
       .append(battle_ship.target_field)
     
-    battle_ship.put_destroyer_at(1,0,'v');
-    battle_ship.put_cruiser_at(1,1,'h');
       
   </script>
 

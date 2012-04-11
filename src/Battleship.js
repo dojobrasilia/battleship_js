@@ -39,6 +39,12 @@ BattleShip.prototype = {
   
   put_cruiser_at: function(row, col, orientation){
     if(orientation == 'v') {
+      var img1 = $("<img src='images/v_cruiser_1.jpg' />");
+      var img2 = $("<img src='images/v_cruiser_2.jpg' />");
+      var img3 = $("<img src='images/v_cruiser_3.jpg' />");
+      this.cell(row, col).append(img1);
+      this.cell(row+1, col).append(img2);
+      this.cell(row+2, col).append(img3);
       
     } else {
       var img1 = $("<img src='images/h_cruiser_1.jpg' />");

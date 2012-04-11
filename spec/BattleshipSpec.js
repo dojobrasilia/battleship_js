@@ -33,6 +33,13 @@ describe("Battleship", function() {
     expect(this.battle_ship.my_field.find('tr:eq(0) td:eq(1) img').attr('src')).toBe('images/h_cruiser_2.jpg');
     expect(this.battle_ship.my_field.find('tr:eq(0) td:eq(2) img').attr('src')).toBe('images/h_cruiser_3.jpg');
   });
+  
+  it("should create a vertical cruiser and put it in the position 0x0", function(){
+    this.battle_ship.put_cruiser_at(0, 0, 'v');
+    expect(this.battle_ship.my_field.find('tr:eq(0) td:eq(0) img').attr('src')).toBe('images/v_cruiser_1.jpg');
+    expect(this.battle_ship.my_field.find('tr:eq(1) td:eq(0) img').attr('src')).toBe('images/v_cruiser_2.jpg');
+    expect(this.battle_ship.my_field.find('tr:eq(2) td:eq(0) img').attr('src')).toBe('images/v_cruiser_3.jpg');
+  });
 
 
 });
